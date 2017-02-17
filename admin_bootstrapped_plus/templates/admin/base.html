@@ -151,7 +151,7 @@ Email: gkarak@9-dev.com
         <div class="sidebar inner">
             <div class="panel-group" id="sidebar-accordion" role="tablist" aria-multiselectable="true">
                 {% get_app_list as admin_app_list %}
-                {% for app in admin_app_list %}
+                {% for app in available_apps %}
                     <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="{{ app.app_label }}">
                             <h4 class="panel-title">
